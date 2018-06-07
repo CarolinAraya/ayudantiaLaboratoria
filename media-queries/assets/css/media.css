@@ -20,16 +20,29 @@ Breakpoints: (para cambiar de tamanio el fondo)
   body {
     background-color: red;
   }
+  h1{  
+    font-size: 60px;
+  }
+  h3{
+    display: none;
+  }
 }
 
 @media(min-width: 667px) and (max-width: 1024px){
   body {
     background-color: yellow;
   }
+  h1{  
+    font-size: 100px;
+  }  
+  
 }
 
 @media(min-width: 1025px) and (max-width: 1600px){
   body {
     background-color: blue;
+  }
+  h1{  
+    font-size: 150px;
   }
 }
