@@ -82,3 +82,11 @@ formula para el ancho de las columnas (numero columnas / 12) * 100
 .col-12 {
   width: 100%;
 }
+
+/*MIS ESTILOS  */
+
+.box {
+  border: 1px solid red;
+  width: 100%;
+  height: 100px;
+}
